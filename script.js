@@ -1,6 +1,6 @@
 // script.js
 
-var messageBoardURL = process.env.MESSAGE_BOARD_URL || 'https://tp-archiapp-messageboard.onrender.com/'
+var messageBoardURL = 'https://tp-archiapp-messageboard.onrender.com/'
 
 function updateMessages() {
   fetch(messageBoardURL + 'msg/getAll')
