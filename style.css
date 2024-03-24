@@ -1,0 +1,48 @@
+body {
+    margin: 20px; /* Marge autour du corps de la page */
+    font-family: Arial, sans-serif; /* Police de caractères par défaut */
+}
+
+h1 {
+    color: #3498db; /* Couleur bleue pour le titre */
+}
+
+ul {
+    background-color: #ecf0f1; /* Couleur de fond gris pâle pour la liste */
+    padding: 10px; /* Ajout de marge intérieure à la liste */
+    list-style-type: none; /* Suppression des puces de liste par défaut */
+}
+
+li {
+    margin-bottom: 10px; /* Marge entre chaque élément de la liste */
+}
+
+textarea {
+    width: 100%; /* La zone de texte occupe toute la largeur disponible */
+    padding: 10px; /* Ajout de marge intérieure à la zone de texte */
+    margin-top: 10px; /* Marge en haut de la zone de texte */
+}
+
+button {
+    background-color: #2ecc71; /* Couleur de fond verte pour le bouton */
+    color: #fff; /* Couleur du texte blanc pour le bouton */
+    padding: 10px; /* Ajout de marge intérieure au bouton */
+    cursor: pointer; /* Curseur de type pointeur au survol du bouton */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre portée */
+}
+
+button:hover {
+    background-color: #27ae60; /* Couleur de fond verte plus foncée au survol du bouton */
+}
+
+#deleteAllMessages {
+    background-color: #ff5b5b; /* Couleur de fond verte pour le bouton */
+    color: #fff; /* Couleur du texte blanc pour le bouton */
+    padding: 10px; /* Ajout de marge intérieure au bouton */
+    cursor: pointer; /* Curseur de type pointeur au survol du bouton */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre portée */
+}
+
+#deleteAllMessages:hover {
+    background-color: #d00000; /* Couleur de fond verte plus foncée au survol du bouton */
+}
