@@ -1,6 +1,6 @@
 // script.js
 
-var messageBoardURL = 'https://7fc4a0e2-87bd-4109-9ec1-3ee0accaff79-00-1py5qmsc9nmdj.riker.replit.dev/'
+var messageBoardURL = process.env.MESSAGE_BOARD_URL || 'https://7fc4a0e2-87bd-4109-9ec1-3ee0accaff79-00-1py5qmsc9nmdj.riker.replit.dev/'
 
 function updateMessages() {
   fetch(messageBoardURL + 'msg/getAll')
